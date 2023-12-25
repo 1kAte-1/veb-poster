@@ -1,0 +1,514 @@
+@media all and (min-device-width:1025px) {
+    
+    .text__tab{
+        display: none;
+    }
+
+    .description_mob{
+        display: none;
+    }
+
+    .third__block-mob{
+        display: none;
+    }
+}
+
+@media all and (max-device-width:561px) {
+    
+    .text__tab{
+        display: none;
+    }
+
+    .text{
+        display: none;
+    }
+
+    .second__block{
+        display: none;
+    }
+
+    .description_mob{
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+    .third__block-mob{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+    }
+}
+
+/*планшет*/
+
+@media only screen and (min-device-width: 560px) and (max-device-width: 1024px){
+    
+    h1{
+        font-size: 3.65vw;
+        line-height: 4.17vw;
+    }
+
+    p{
+        font-size: 1.8vw;
+        line-height: 2.4vw;
+    }
+
+    .text{
+        display: none;
+    }
+
+    .description_mob{
+        display: none;
+    }
+
+    .third__block-mob{
+        display: none;
+    }
+
+
+
+    .logo{
+        padding-top: 53vw;
+        padding-bottom: 58.415vw;
+    }
+
+    .name__logo1{
+        width: 13.28vw;
+        margin-left: 6.12vw;
+    }
+    
+    .name__logo2{
+        width: 7.03vw;
+    }
+    
+    .name__logo3{
+        width: 14.06vw;
+    }
+    
+    .name__logo4{
+        width: 12.37vw;
+    }
+    
+    
+    .name__logo5{
+        width: 14.58vw;
+    }
+    
+    .name__logo6{
+        width: 12.23vw;
+        margin-right: 6.12vw;
+    }
+
+    .stars__pc{
+        height: 133.3vw;
+    }
+
+    .pc__logo1{
+        position: absolute;
+        z-index: 1;
+        margin-left: -66vw;
+        margin-top: 39vw;
+    }
+    
+    .star__logo1{
+        width: 150vw;
+        transform: rotate(-54.43deg);
+        filter: drop-shadow(0vw 0vw 22.04vw rgba(255, 253, 248, 0.50)) blur(0.822vw);
+    }
+    
+    .pc__logo2{
+        position: absolute;
+        z-index: 1;
+        margin-left: 58vw;
+        margin-top: -4vw;
+    }
+    
+    .star__logo2{
+        width: 80vw;
+        transform: rotate(-109deg);
+        filter: drop-shadow(0vw 0vw 22.04vw rgba(255, 253, 248, 0.50)) blur(0.822vw);
+    }
+    
+    .pc__logo3{
+        position: absolute;
+        z-index: 1;
+        margin-left: 4vw;
+        margin-top: -21vw;
+    }
+    
+    .star__logo3{
+        width: 60vw;
+        transform: rotate(70deg);
+        filter: drop-shadow(0vw 0vw 22.04vw rgba(255, 253, 248, 0.50)) blur(0.822vw);
+    }
+    
+    .pc__logo4{
+        position: absolute;
+        z-index: 1;
+        margin-left: 78vw;
+        margin-top: 84vw;
+    }
+    
+    .star__logo4{
+        width: 43.4vw;
+        transform: rotate(-54deg);
+        filter: drop-shadow(0vw 0vw 22.04vw rgba(255, 253, 248, 0.50)) blur(0.822vw);
+    }
+
+
+    .text__tab{
+        margin: 5.7vw;
+        margin-left: 3.51vw;
+        width: 27.86vw;
+        color: #4278CB;
+    }
+
+    .text__description{
+        width: 34.9vw;
+        margin-right: 2vw;
+    }
+
+    .star__dark{
+        width: 29.32vw;
+        margin: 1.6vw 1vw;
+    }
+
+}
+
+/*телефон*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 560px){
+    
+    h1{
+        font-size: 5vw;
+        line-height: 5.55vw;
+    }
+
+    p{
+        font-size: 2.78vw;
+        line-height: 3.33vw;
+    }
+
+
+
+    .logo{
+        padding-top: 77.22vw;
+        padding-bottom: 78.475vw;
+    }
+
+    .name__logo1{
+        width: 13.05vw;
+        margin-left: 7.22vw;
+    }
+    
+    .name__logo2{
+        width: 6.94vw;
+    }
+    
+    .name__logo3{
+        width: 13.9vw;
+    }
+    
+    .name__logo4{
+        width: 12.22vw;
+    }
+    
+    
+    .name__logo5{
+        width: 14.17vw;
+    }
+    
+    .name__logo6{
+        width: 12vw;
+        margin-right: 7.22vw;
+    }
+
+    .stars__pc{
+        height: 177.8vw;}
+
+    .pc__logo1{
+        position: absolute;
+        z-index: 1;
+        margin-left: -79vw;
+        margin-top: 57vw;
+    }
+    
+    .star__logo1{
+        width: 180vw;
+        transform: rotate(-106deg);
+        filter: drop-shadow(0vw 0vw 22.04vw rgba(255, 253, 248, 0.50)) blur(0.822vw);
+    }
+    
+    .pc__logo2{
+        position: absolute;
+        z-index: 1;
+        margin-left: 50vw;
+        margin-top: -10vw;
+    }
+    
+    .star__logo2{
+        width: 100vw;
+        transform: rotate(-178deg);
+        filter: drop-shadow(0vw 0vw 22.04vw rgba(255, 253, 248, 0.50)) blur(0.822vw);
+    }
+    
+    .pc__logo3{
+        position: absolute;
+        z-index: 1;
+        margin-left: 1vw;
+        margin-top: -1vw;
+    }
+    
+    .star__logo3{
+        width: 55vw;
+        transform: rotate(70deg);
+        filter: drop-shadow(0vw 0vw 22.04vw rgba(255, 253, 248, 0.50)) blur(0.822vw);
+    }
+    
+    .pc__logo4{
+        position: absolute;
+        z-index: 1;
+        margin-left: 78vw;
+        margin-top: 120vw;
+    }
+    
+    .star__logo4{
+        width: 43.4vw;
+        transform: rotate(-54deg);
+        filter: drop-shadow(0vw 0vw 22.04vw rgba(255, 253, 248, 0.50)) blur(0.822vw);
+    }
+
+
+
+    .text__description-mob{
+        color: #4278CB;
+        width: 89.44vw;
+        margin: 6.67vw 5.28vw;
+    }
+
+    .description_mob{
+        overflow: hidden;
+        background-color: #FFFDF8;
+    }
+
+    .description_mob:hover .arrow__decoration{
+        transform: translateY(25vw);
+    }
+
+    .decorations-mob{
+        position: absolute;
+        z-index: 1;
+        margin-left: 58.33vw;
+        margin-top: 5.6vw;
+    }
+
+    .arrow__decoration{
+        width: 30vw;
+    }
+
+
+    .star-mob{
+        background-color: #B9D5FF;
+        width: 50vw;
+        align-content: center;
+        transition: all 0.5s linear;
+    }
+
+    .star-mob:hover{
+        background-color: #FFFDF8;
+    }
+    
+    .star__dark-mob{
+        width: 50vw;
+        filter: drop-shadow(0px 0px 2.04vw rgba(66, 120, 203, 0.50)) blur(0.882vw);
+        animation: rpt 8s linear infinite;
+        animation-play-state: running;
+    }
+
+    .star__dark-mob:hover{
+        animation-play-state: paused;
+    }
+    
+    .letter-mob{
+        background-color: #FFFDF8;
+        overflow: hidden;
+        width: 50vw;
+    }
+    
+    .bg__letter-mob{
+        position: absolute;
+        width: 50vw;
+        height: 51.11vw;
+        overflow: hidden;
+        z-index: 1;
+    }
+    
+    .git-u{
+        position: absolute;
+        z-index: 1;
+        margin-left: 8.06vw;
+        margin-top: -5.56vw;
+    } 
+    
+    .g-{
+        width: 16.39vw;
+        transform: rotate(-15.29deg);
+        transition: all 0.7s linear;
+    }
+
+    .g-:hover{
+        filter: blur(0.6vw)
+    }
+    
+    
+    .kit-u{
+        position: absolute;
+        z-index: 1;
+        margin-top: 2.5vw;
+        margin-left: 31.67vw;
+    }
+    
+    .k-{
+        width: 5vw;
+        transform: rotate(8.652deg);
+        transition: all 0.7s linear;
+    }
+
+    .k-:hover{
+        filter: blur(0.4vw)
+    }
+    
+    .pit-u{
+        position: absolute;
+        z-index: 1;
+        margin-left: 2vw;
+        margin-top: 29vw;
+    }
+    
+    .p-{
+        width: 19vw;
+        transform: rotate(-36.785deg);
+        transition: all 0.7s linear;
+    }
+
+    .p-:hover{
+        filter: blur(0.6vw)
+    }
+    
+    .rit-u{
+        position: absolute;
+        z-index: 1;
+        margin-left: 27vw;
+        margin-top: 32vw;
+    }
+    
+    .r-{
+        width: 7.9vw;
+        transform: rotate(-46.504deg);
+        transition: all 0.7s linear;
+    }
+
+    .r-:hover{
+        filter: blur(0.4vw)
+    }
+    
+    .uit-u{
+        position: absolute;
+        z-index: 1;
+        margin-left: 38vw;
+        margin-top: 16.94vw;
+    }
+    
+    .u-{
+        width: 12.77vw;
+        transform: rotate(22.003deg);
+        transition: all 0.7s linear;
+    }
+
+    .u-:hover{
+        filter: blur(0.5vw)
+    }
+    
+    .bg__mob{
+        position: relative;
+    }
+    
+    .sphere-mob{
+        width: 49.72vw;
+        margin-left: 3vw;
+        margin-top: 3vw;
+        animation: opa 4s ease-in-out infinite;
+    }
+
+    @keyframes opa {
+        0% {opacity: 100%;}
+        50% {opacity: 25%;}
+        100% {opacity: 100;}
+    }
+
+    .circles{
+        margin-bottom: 9.8vw;
+    }
+
+    .line__block2{
+        display: none;
+    }
+
+    .line__block1{
+        margin-top: 3.6vw;
+        margin-bottom: 1vw;
+        height: 6.1vw;
+    }
+    
+    .line__block{
+        margin-bottom: 1vw;
+        height: 6.1vw;
+    }
+    
+    .line__block-1{
+        margin-bottom: 3.6vw;
+        height: 6.1vw;
+    }
+
+    .line__text-description1{
+        height: 6.1vw;
+    }
+    
+    .line__text-description2{
+        height: 6.1vw;
+    }
+
+
+    .text__arrow-grap{
+        width: 36.5vw;
+    }
+    
+    .text1-1{
+        color: #FFFDF8;
+        margin-left: 2vw;
+        margin-top: 2vw;
+        margin-right: -5vw;
+        width: 20.83vw;
+        
+    }
+    
+    .text2-1{
+        margin-top: 19.17vw;
+        margin-bottom: 1.39vw;
+        width: 15.83vw;
+    }
+    
+    .down__stain{
+        margin-top: 7.2vw;
+        margin-left: 2vw;
+    }
+    
+    .arrow__decor2{
+        width: 30vw;
+    }
+    
+
+}

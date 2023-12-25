@@ -1,0 +1,1008 @@
+/*общее*/
+html, body{
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'CirceRounded-Regular';
+}
+
+a{ 
+    color: inherit;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'CirceRounded-Regular';
+    font-style: normal;
+    src: url('../fonts/CirceRounded-Regular.ttf');
+}
+
+p{
+    font-size: 1.94vw;
+    line-height: 2.22vw;
+    font-family: 'CirceRounded-Regular';
+    font-style: normal;
+}
+
+h1{
+    font-size: 3.75vw;
+    line-height: 4.03vw;
+    font-family: 'CirceRounded-Regular';
+    font-style: normal;
+}
+
+.first__block, .second__block, .third__block, .fourth__block, .fifth__block, .sixth__block, .seventh__block, .eight__block, .ninth__block, .tenth__block{
+    width: 100%;
+    overflow: hidden;
+}
+
+.second__block, .fifth__block, .sixth__block, .tenth__block {
+    display: flex;
+}
+
+/*начало*/
+
+/*первый блок начало*/
+
+.first__block{
+    position: relative;
+    overflow: hidden;
+    background-color: #2354A0;
+}
+
+
+.logo{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100vw;
+    align-items: last baseline;
+    padding-top: 21.9vw;
+    padding-bottom: 23vw;
+    margin: 0 auto;
+    background-color: #2354A0;
+    overflow: hidden;
+}
+
+.name__logo1{
+    width: 10.9vw;
+    margin-left: 14.03vw;
+}
+
+.name__logo2{
+    width: 5.69vw;
+    animation: let-l 0.8s linear 1 0.5s forwards;
+}
+
+@keyframes let-l {
+    0% {rotate: 0; }
+    100% {rotate: -9.6deg; }
+}
+
+.name__logo3{
+    width: 11.53vw;
+    animation: let-o 0.8s linear 1 0.5s forwards;
+}
+
+@keyframes let-o {
+    0% {filter: blur(0);}
+    100% { filter: blur(0.36vw); transform: translateY(-2.36vw);}
+}
+
+.name__logo4{
+    width: 10.14vw;
+}
+
+
+.name__logo5{
+    width: 11.81vw;
+    animation: let-d 0.8s linear 1 0.5s forwards;
+}
+
+@keyframes let-d {
+    0% {rotate: 0;}
+    100% {rotate: 27.042deg; filter: blur(0.36vw); transform: translateY(-1vw);}
+}
+
+.name__logo6{
+    width: 9.79vw;
+    margin-right: 14.03vw;
+    animation: let-y 0.8s linear 1 0.5s forwards;
+}
+
+@keyframes let-y {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(2.78vw);}
+}
+
+.stars__pc{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 62.5vw;
+    /*height: 100%;*/
+    overflow: hidden;
+}
+
+.pc__logo1{
+    position: absolute;
+    z-index: 1;
+    margin-left: -25vw;
+    margin-top: 18vw;
+}
+
+.star__logo1{
+    width: 71.53vw;
+    transform: rotate(-64.23deg);
+    filter: drop-shadow(0vw 0vw 22.04vw rgba(255, 253, 248, 0.50)) blur(1.4vw);
+    transition: all 0.8s ease-in-out;
+}
+
+.star__logo1:hover{
+    transform: translateX(-10vw);
+    transform: translateY(10vw);
+}
+
+.pc__logo2{
+    position: absolute;
+    z-index: 1;
+    margin-left: 72vw;
+    margin-top: -15vw;
+}
+
+.star__logo2{
+    width: 44.93vw;
+    transform: rotate(-59deg);
+    filter: drop-shadow(0vw 0vw 22.04vw rgba(255, 253, 248, 0.50)) blur(1.4vw);
+    transition: all 0.7s linear;
+}
+
+.star__logo2:hover{
+    transform: translateX(8vw);
+    transform: translateY(-8vw);
+}
+
+.pc__logo3{
+    position: absolute;
+    z-index: 1;
+    margin-left: 29.86vw;
+    margin-top: -8vw;
+}
+
+.star__logo3{
+    width: 24.58vw;
+    transform: rotate(66deg);
+    filter: drop-shadow(0vw 0vw 22.04vw rgba(255, 253, 248, 0.50)) blur(1vw);
+    transition: all 0.7s linear;
+}
+
+.star__logo3:hover{
+    transform: translateX(-5vw);
+    transform: translateY(-4vw);
+}
+
+.pc__logo4{
+    position: absolute;
+    z-index: 1;
+    margin-left: 64.79vw;
+    margin-top: 44vw;
+}
+
+.star__logo4{
+    width: 30vw;
+    transform: rotate(-32.49deg);
+    filter: drop-shadow(0vw 0vw 22.04vw rgba(255, 253, 248, 0.50)) blur(1vw);
+    transition: all 0.7s linear;
+}
+
+.star__logo4:hover{
+    transform: translateX(8vw);
+    transform: translateY(5vw);
+}
+
+/*первый блок конец*/
+
+/*второй блок начало*/
+
+.second__block{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.text{
+    width: 29.65vw;
+    color: #4278CB;
+    margin-top: 6.5vw;
+    margin: 6.5vw;
+    margin-left: 2.78vw;
+    margin-right: 2.78vw;
+}
+
+.description{
+    background-color: #FFFDF8;
+    overflow: hidden;
+}
+
+.description:hover .arrow__decoration{
+    transform: translateY(25vw);
+}
+
+
+.decorations{
+    position: absolute;
+    z-index: 1;
+    margin-left: 9.65vw;
+    margin-top: 11.9vw;
+    overflow: hidden;
+}
+
+.arrow__decoration{
+    width: 25.28vw;
+    position: relative;
+    z-index: 10;
+    transition: all 1s linear;
+}
+
+.star{
+    background-color: #B9D5FF;
+    align-items: center;
+    transition: all 0.5s linear;
+}
+
+.star:hover{
+    background-color: #FFFDF8;
+}
+
+.star__dark{
+    width: 29.23vw;
+    margin-left: 1.46vw;
+    margin-right: 1.46vw;
+    margin-top: 1.78vw;
+    margin-bottom: 1.78vw;
+    filter: drop-shadow(0px 0px 2.04vw rgba(66, 120, 203, 0.50)) blur(0.882vw);
+    animation: rpt 8s linear infinite;
+    animation-play-state: running;
+}
+
+.star__dark:hover{
+    animation-play-state: paused;
+}
+
+@keyframes rpt {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
+.letter{
+    background-color: #FFFDF8;
+    overflow: hidden;
+}
+
+.bg__letter-u{
+    position: absolute;
+    width: 34.93vw;
+    height: 32.97vw;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.git{
+    position: absolute;
+    z-index: 1;
+    margin-left: 5.28vw;
+    margin-top: -3vw;
+} 
+
+.g{
+    width: 10.9vw;
+    transform: rotate(-15.29deg);
+    transition: all 0.7s linear;
+}
+
+.g:hover{
+    filter: blur(0.6vw)
+}
+
+.kit{
+    position: absolute;
+    z-index: 1;
+    margin-top: 1.8vw;
+    margin-left: 22.15vw;
+}
+
+.k{
+    width: 3.19vw;
+    transform: rotate(8.652deg);
+    transition: all 0.7s linear;
+}
+
+.k:hover{
+    filter: blur(0.4vw)
+}
+
+.pit{
+    position: absolute;
+    z-index: 1;
+    margin-left: 2.3vw;
+    margin-top: 18.33vw;
+}
+
+.p{
+    width: 12.01vw;
+    transform: rotate(-36.785deg);
+    transition: all 0.7s linear;
+}
+
+.p:hover{
+    filter: blur(0.65vw)
+}
+
+.rit{
+    position: absolute;
+    z-index: 1;
+    margin-left: 20vw;
+    margin-top: 22vw;
+}
+
+.r{
+    width: 4.38vw;
+    transform: rotate(-46.504deg);
+    transition: all 0.7s linear;
+}
+
+.r:hover{
+    filter: blur(0.4vw)
+}
+
+.uit{
+    position: absolute;
+    z-index: 1;
+    margin-left: 27.8vw;
+    margin-top: 12vw;
+}
+
+.u{
+    width: 7.29vw;
+    transform: rotate(22.003deg);
+    transition: all 0.7s linear;
+}
+
+.u:hover{
+    filter: blur(0.5vw)
+}
+
+.bg__{
+    position: relative;
+}
+
+.sphere{
+    width: 34.86vw;
+    margin-left: 1.8vw;
+    margin-top: 0.76vw;
+    animation: opa 4s ease-in-out infinite;
+}
+
+@keyframes opa {
+    0% {opacity: 100%;}
+    50% {opacity: 25%;}
+    100% {opacity: 100;}
+}
+
+/*второй блок конец*/
+
+/*третий блок начало*/
+
+.third__block{
+    background-color: #B9D5FF;
+    overflow: hidden;
+    
+}
+
+.text__circle{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.text1{
+    color: #FFFDF8;
+    margin-top: 2.43vw;
+    margin-bottom: 6.74vw;
+    margin-left: 20.76vw;
+    z-index: 10;
+}
+
+.text2{
+    color: #FFFDF8;
+    margin-top: 13.61vw;
+    margin-right: 20.76vw;
+    margin-bottom: 2.43vw;
+    z-index: 10;
+}
+
+.circles__bg{
+    position: absolute;
+    /*z-index: 1;*/
+    width: 100%;
+    overflow: hidden;
+    /*align-content: center;*/
+}
+
+.circles{
+    width: 3.26vw;
+    margin: 8.47vw 48.33vw;
+    animation: sphere 13s linear infinite;
+}
+
+@keyframes sphere {
+    0% {transform: scale(0);}
+    50% {transform: scale(24);}
+    100% {transform: scale(0);}
+}
+
+/*третий блок конец*/
+
+/*четвертый блок начало*/
+
+.fourth__block{
+    background-color: #2354A0;
+    display: block;
+}
+
+.line__block1{
+    position: relative;
+    width: 100%;
+    margin-top: 2.78vw;
+    margin-bottom: 1.9vw;
+    overflow: hidden;
+    height: 4.03vw;
+}
+
+.line__block{
+    position: relative;
+    width: 100%;
+    /*margin-top: 2.78vw;*/
+    margin-bottom: 1.9vw;
+    overflow: hidden;
+    height: 4.03vw;
+}
+
+.line__block-1{
+    position: relative;
+    width: 100%;
+    /*margin-top: 2.78vw;*/
+    margin-bottom: 1.9vw;
+    overflow: hidden;
+    height: 4.03vw;
+}
+
+.line__block2{
+    position: relative;
+    width: 100%;
+    /*margin-top: 2.78vw;*/
+    margin-bottom: 2.78vw;
+    overflow: hidden;
+    height: 4.03vw;
+}
+
+.line__text-description1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 260%;
+    height: 4.03vw;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    animation: text-move 7s linear infinite;
+    animation-play-state: running;
+}
+
+@keyframes text-move {
+    100% {margin-left: -8vw;}
+    0% {margin-left: -125vw;}
+}
+
+.line__text-description2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 4.03vw;
+    width: 260%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    animation: text-move 7s reverse linear infinite;
+    animation-play-state: running;
+}
+
+.line__text-description1:hover{
+    animation-play-state: paused;
+}
+
+.line__text-description2:hover{
+    animation-play-state: paused;
+}
+
+.text__events{
+    color: #FFFDF8;
+}
+
+/*четвертый блок конец*/
+
+/*пятый блок начало*/
+
+.naming{
+    background-color: #FFFDF8;
+    width: 63.82vw;
+}
+
+.wrap{
+    position: relative;
+    width: 63.82vw;
+    height: 53.19vw;
+    overflow: hidden;
+}
+
+.background{
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: -18.03vw;
+    margin-left: -16.74vw;
+}
+
+.ypic{
+    width: 107.9vw;
+    animation: movi 3s ease-in-out infinite;
+}
+
+@keyframes movi{
+    0% {transform: translateX(-1vw);}
+    50% {transform: translateX(1vw);}
+    100% {transform: translateX(-1vw);}
+}
+
+.logo__photo{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    margin-top: 23.27vw;
+    margin-bottom: 21.74vw;
+    /*overflow: hidden;*/
+}
+
+.ph{
+    width: 27.08vw;
+    margin: 0 19.31vw 0 17.43vw;
+    transition: all 2.5s ease-in-out;
+}
+
+.ph:hover{
+    transform: scale(1.8);
+}
+
+.graphics{
+    display: block;
+    overflow: hidden;
+}
+
+.circle__graphics{
+    position: relative;
+    width: 36.18vw;
+    background-color: #4278CB;
+}
+
+.bocke{
+    position: relative;
+    width: 36.18vw;
+    height: 26.6vw;
+    overflow: hidden;
+}
+
+.sp1{
+    position: absolute;
+    z-index: 1;
+    margin-top: 14.51vw;
+    margin-left: 17.22vw;
+}
+
+.size1{
+    width: 21.46vw;
+    animation: movi2 5s ease-in-out infinite;
+    animation-play-state: running;
+}
+
+.bocke:hover .size1{
+    animation-play-state: paused;
+}
+
+@keyframes movi2{
+    0% {transform: translateY(-1vw);}
+    50% {transform: translateY(3vw);}
+    100% {transform: translateY(-1vw);}
+}
+
+
+.sp2{
+    position: absolute;
+    z-index: 1;
+    margin-top: -3.06vw;
+    margin-left: 4.93vw;
+}
+
+.size2{
+    width: 13.47vw;
+    animation-play-state: running;
+    animation: movi3 3s linear infinite;
+    animation-delay: 1.5s;
+}
+
+.bocke:hover .size2{
+    animation-play-state: paused;
+}
+
+@keyframes movi3{
+    0% {transform: translateY(-1vw);}
+    50% {transform: translateY(2vw);}
+    100% {transform: translateY(-1vw);}
+}
+
+.sp3{
+    position: absolute;
+    z-index: 1;
+    margin-top: 14.38vw;
+    margin-left: -1.8vw;
+}
+
+.size3{
+    width: 6.67vw;
+    animation: movi4 4s linear infinite;
+    animation-play-state: running;
+}
+
+.bocke:hover .size3{
+    animation-play-state: paused;
+}
+
+@keyframes movi4{
+    0% {transform: translateX(0vw);}
+    50% {transform: translateX(2vw); transform: scale(1.4);}
+    100% {transform: translateY(0vw);}
+}
+
+.sp4{
+    position: absolute;
+    z-index: 1;
+    margin-top: 3.4vw;
+    margin-left: 31.67vw;
+}
+
+.size4{
+    width: 5.28vw;
+    animation: movi5 3s linear infinite;
+    animation-play-state: running;
+}
+
+.bocke:hover .size4{
+    animation-play-state: paused;
+}
+
+@keyframes movi5{
+    0% {transform: translateX(0vw);}
+    50% {transform: translateX(1vw); transform: scale(1.2);}
+    100% {transform: translateX(0vw);}
+}
+
+.arrow__graphics{
+    background-color: #2354A0;
+    width: 36.18vw;
+    overflow: hidden;
+}
+
+.text__arrow-grap{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 30.63;
+    overflow: hidden;
+}
+
+.text1-1{
+    color: #FFFDF8;
+    margin-left: 2.28vw;
+    margin-top: 2.15vw;
+    transition: all 0.5s linear;
+    
+}
+
+.text1-1:hover{
+    color: #FFA894;
+}
+
+.text2-1{
+    color: #FFFDF8;
+    margin-top: 20vw;
+    margin-bottom: 2.15vw;
+    margin-right: 2.28vw;
+}
+
+.down__stain{
+    position: absolute;
+    z-index: 1;
+    margin-top: 4.86vw;
+    margin-left: 2.3vw;
+}
+
+.arrow__decor2{
+    width: 32.36vw;
+}
+
+/*пятый блок конец*/
+
+/*шестой блок начало*/
+
+.dark{
+    background-color: #4278CB;
+    width: 50vw;
+    height: 26.74vw;
+    overflow: hidden;
+}
+
+.wrap_let{
+    position: relative;
+    height: 26.74vw;
+    width: 50vw;
+    overflow: hidden;
+}
+
+.let_d{
+    position: absolute;
+    z-index: 1;
+    margin-top: -3.47vw;
+    margin-left: 7vw;
+}
+
+.letter_d{
+    width: 20vw;
+    transform: rotate(-50.89deg);
+    animation: tot 13s linear infinite;
+}
+
+@keyframes tot{
+    0% {transform: rotate(-50.89deg);}
+    25% {transform: rotate(-110deg);}
+    50% {transform: rotate(-30deg);}
+    75% {transform: rotate(-70deg);}
+    100% {transform: rotate(-50.89);}
+
+}
+
+.let_o{
+    position: absolute;
+    z-index: 2;
+    margin-top: 5vw;
+    margin-left: 19vw;
+}
+
+.letter_o{
+    width: 20vw;
+    animation: toto 8s linear infinite;
+}
+
+@keyframes toto {
+    0% {margin-left: 0vw;}
+    50% {margin-left: 2vw;}
+    100% {margin-left: 0vw;}
+}
+
+.light{
+    background-color: #B9D5FF;
+    width: 50vw;
+}
+
+.let_d1{
+    position: absolute;
+    z-index: 1;
+    margin-top: -5.6vw;
+    margin-left: 33vw;
+}
+
+.letter_d1{
+    width: 18vw;
+    transform: rotate(33.609deg);
+    animation: tot1 5s linear infinite;
+}
+
+@keyframes tot1{
+    0% {transform: rotate(33.609deg);}
+    50% { transform: rotate(60deg); transform: translateX(-5vw);}
+    100% {transform: rotate(33.609deg);}
+}
+
+.let_o1{
+    position: absolute;
+    z-index: 2;
+    margin-top: 11vw;
+    margin-left: 3.3vw;
+}
+
+.letter_o1{
+    width: 15vw;
+    animation: toto1 3s linear infinite;
+}
+
+@keyframes toto1 {
+    0% {transform: translateY(0); transform: translateX(0);}
+    25% {transform: translateY(-9vw);}
+    50% {transform: translateY(-5vw); transform: translateX(10vw);}
+    75% {transform: translateY(-5vw); transform: translateX(3vw);}
+    100% {transform: translateX(0); transform: translateY(0);}
+}
+
+/*шестой блок конец*/
+
+/*седьмой блок начало*/
+
+.seventh__block{
+    background-color: #FFFDF8;
+    width: 100%;
+    height: 6.94vw;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.line__star{
+    margin-top: 1.53vw;
+    margin-bottom: 1.53vw;
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    animation: line1 10s linear infinite;
+    animation-play-state: running;
+}
+
+.line__star:hover {
+    animation-play-state: paused;
+}
+
+@keyframes line1 {
+    100% {margin-left: 0vw;}
+    0%{margin-left: -120vw;}
+} 
+
+.block__pic-star{
+    margin-right: 2.7vw;
+}
+
+.block__pic-star:hover .pic__star{
+    filter: blur(0.13vw);
+    transform: rotate(-32deg);
+}
+
+.pic__star{
+    width: 3.81vw;
+    transition: all 0.5s linear;
+}
+
+/*седьмой блок конец*/
+
+/*восьмой блок начало*/
+
+.eighth__block{
+    background-color: #B9D5FF;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+    height: 6.94vw;
+    position: relative;
+}
+
+.line__star2{
+    margin-top: 0.83vw;
+    margin-bottom: 0.83vw;
+    margin-left: 0.6vw;
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+}
+
+.block__pic-star2{
+    margin-right: 2.43vw;
+}
+
+.pic__star2:hover {
+    animation-play-state: paused;
+}
+
+.pic__star2{
+    width: 5.28vw;
+    /*transition: all 0.5s linear;*/
+    animation: sc 3s linear infinite;
+    animation-play-state: running;
+    filter: blur(0.22vw);
+}
+
+@keyframes sc{
+    0% {transform: scale(0);}
+    50% {transform: scale(1);}
+    100% {transform: scale(0.7);}
+}
+
+/*восьмой блок конец*/
+
+/*девятый блок начало*/
+
+.ninth__block{
+    background-color: #2354A0;
+    height: 40.97vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.photo__bg{
+    width: 100%;
+    height: 40.97vw;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    align-content: center;
+    
+}
+
+.fil{
+    width: 100%;
+    animation: up 14s linear infinite;
+}
+
+@keyframes up {
+    0% {transform: translateY(0vw);}
+    100% {transform: translateY(-100vw);}
+}
+
+/*девтый блок конец*/
+
+/*десятый блок начало*/
+
+.tenth__block{
+    background-color: #4278CB;
+    justify-content: space-between;
+    padding-top: 3.26vw;
+    padding-bottom: 3.26vw;
+    position: relative;
+}
+
+.name__author{
+    margin-left: 2.78vw;
+    color: #FFFDF8;
+    transition: all 0.8s ease-in-out;
+}
+
+.name__author:hover {
+    filter: blur(0.18vw);
+}
+
+.year{
+    margin-right: 2.78vw;
+    color: #FFFDF8;
+}
+
+.year:hover {
+    filter: blur(0.18vw);
+    transition: all 0.8s ease-in-out;
+}
+
+
+/*десятый блок конец*/
